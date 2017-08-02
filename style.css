@@ -1,0 +1,190 @@
+body {
+/*  background-color: #E5F4FF;*/
+  background: linear-gradient(#E5F4FF, #35ABFF);
+  font-family: 'Lato', sans-serif;
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  line-height:  24px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  color: (90 90, 90);
+  font-family: 'Lato', sans-serif;;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1, h3 {
+  color: #56B8FF;
+}
+
+h2 {
+  color: rgba(0,0,0,0.35);
+  weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #7BC6FC;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #9EE1E5;
+}
+
+.intro p {
+  text-align: center;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-small {
+    width: 80px;
+}
+
+.img-medium {
+  width: 250px;
+}
+
+.img-blur-border {
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+}
+
+.img-space {
+  margin: 10px;
+}
+
+#img-profile {
+  border: 3px solid #cccccc;
+  position: relative;
+}
+
+#img-profile:hover {
+  filter: grayscale(90%);
+}
+
+#sidebar {
+  position: fixed;
+  width: 250px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#sidebar ul {
+  padding: 10px;
+}
+
+#sidebar ul li {
+  padding: 10px;
+}
+
+#sidebar a {
+  font-weight: bolder;
+  color: white;
+  background-color: #9EE1E5;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+#sidebar a:hover {
+  background-color: #56B8FF;
+  padding: 10px;
+}
+
+#snorkelling {
+  width: 480px;
+  height: 240px;
+  position: relative;
+}
+
+#snorkelling iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.centered-img {
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-border {
+  border: 5px 3px solid #cccccc;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+.hue-filter:hover {
+  filter: hue-rotate(100deg);
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
